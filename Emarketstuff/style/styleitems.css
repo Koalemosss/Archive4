@@ -1,0 +1,22 @@
+body{
+    background-image: url("../images/bgtest.png");
+    background-size: cover;
+}
+.button {
+    background-color: crimson; 
+    border: 2px solid black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    transition-duration: 500ms;
+    font-family: cursive;
+    border-radius: 4px;
+}
+.button:hover{
+    background-color: pink; 
+    color: black;
+    transform: scale(1.05, 1.05);
+}

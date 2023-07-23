@@ -1,0 +1,33 @@
+body {
+    background-color: lightgray;
+    background-image: url("../images/bgtest.png");
+    background-size: cover;
+}
+
+.button {
+    background-color: crimson;
+    border: 6px solid black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 72px;
+    transition-duration: 500ms;
+    font-family: cursive;
+    border-radius: 4px;
+    justify-content: center;
+}
+
+.button:hover {
+    background-color: pink;
+    color: black;
+    transform: scale(1.05, 1.05);
+}
+
+#cart{
+    font-size: 72px;
+    text-align: center;
+    color: white;
+    font-family: cursive;
+}

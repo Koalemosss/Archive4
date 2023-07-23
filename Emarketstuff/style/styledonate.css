@@ -1,0 +1,54 @@
+body {
+    background-color: lightgray;
+    background-image: url("../images/bgtest.png");
+    background-size: cover;
+  }
+.button {
+    background-color: crimson;
+    border: 2px solid black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    transition-duration: 500ms;
+    font-family: "Comic Neue";
+    border-radius: 4px;
+  }
+
+  .button:hover {
+    background-color: pink;
+    color: black;
+    transform: scale(1.05, 1.05);
+  }
+
+  .button2 {
+    background-color: crimson;
+    border: 3px solid black;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    transition-duration: 500ms;
+    font-family: "Comic Neue";
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 10%;
+  }
+
+  .button2:hover {
+    background-color: pink;
+    color: black;
+    transform: scale(1.05, 1.05);
+  }
+  h1{
+      font-family: "Comic Neue";
+      text-align: center;
+      font-size: 64px;
+      color: white;
+  }
+  main{
+      text-align: center;
+  }
